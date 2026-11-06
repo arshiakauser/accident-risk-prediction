@@ -1,0 +1,19 @@
+# Everything needed to run EDA + training locally:  pip install -r requirements-train.txt
+pandas
+numpy
+scipy
+scikit-learn
+imbalanced-learn
+lightgbm
+xgboost
+catboost
+shap
+matplotlib
+seaborn
+openpyxl
+joblib
+streamlit
+plotly
+pydeck
+sqlalchemy
+psycopg2-binary

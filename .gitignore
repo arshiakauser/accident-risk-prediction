@@ -1,0 +1,23 @@
+# Python / IDE
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.spyproject/
+.spyderproject
+.venv/
+venv/
+
+# Secrets - never commit these
+.env
+.streamlit/secrets.toml
+
+# Generated outputs (re-create by running the scripts)
+eda_outputs/
+catboost_info/
+model_results*.xlsx
+model_results*.csv
+prediction_results.*
+accident_predictions.csv
+
+# NOTE: best_model.pkl and preprocessing_artifacts.pkl are NOT ignored on purpose:
+# the deployed Streamlit app needs them.
