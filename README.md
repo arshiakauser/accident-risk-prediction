@@ -54,7 +54,7 @@ Time-based test set: 404 hourly rows, **15 accidents (3.7% base rate)**. Cross-v
 | LightGBM | 8.1% | 10% | 13% | 2.0x |
 | _Random flagging_ | _4.8%_ | _3.7%_ | _5%_ | _1.0x_ |
 
-`model_performance_comparison.png` below.
+![Model performance comparison](images/model_performance_comparison.png)
 <img width="3600" height="1800" alt="model_performance_comparison" src="https://github.com/user-attachments/assets/02cdb561-e541-4dbe-852d-894449ff3dea" />
 
 
