@@ -6,6 +6,13 @@ A machine-learning pipeline and Streamlit app that **scores and ranks intersecti
 
 **Demo:** run locally with `streamlit run Accident_app.py` (see [Run it](#run-it))  |  **Author:** [Arshia Kauser](https://www.linkedin.com/in/arshia-kauser-50086732/)
 
+## App preview
+
+![Risk predictions table](images/app_predictions.png)<img width="1366" height="693" alt="Accident_app_p" src="https://github.com/user-attachments/assets/95db7274-a515-4414-ba08-ebf745c86729" />
+
+![Summary metrics and risk map](images/app_map.png)<img width="1366" height="689" alt="Accident_app_p1" src="https://github.com/user-attachments/assets/1f385cf4-865b-47c5-ac29-74a8f4afda1e" />
+
+
 ## Business problem
 
 Accidents at intersections and on highways are driven by unpredictable traffic, poorly timed signals and road conditions, and there is no system that warns about accident-prone areas in advance.
@@ -47,7 +54,8 @@ Time-based test set: 404 hourly rows, **15 accidents (3.7% base rate)**. Cross-v
 | LightGBM | 8.1% | 10% | 13% | 2.0x |
 | _Random flagging_ | _4.8%_ | _3.7%_ | _5%_ | _1.0x_ |
 
-Add `model_performance_comparison.png` below.
+`model_performance_comparison.png` below.
+<img width="3600" height="1800" alt="model_performance_comparison" src="https://github.com/user-attachments/assets/02cdb561-e541-4dbe-852d-894449ff3dea" />
 
 
 
